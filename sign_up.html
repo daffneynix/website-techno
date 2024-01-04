@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/sign_up.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <section>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form action="submit_form.php" method="post">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+            <label1 for="promotions">
+                <input type="checkbox" id="promotions" name="promotions">
+                Email me exclusive Wegu promotions. I can opt out later as stated in the Privacy Policy.
+            </label1>
+
+            <button id="sign-up" type="submit"><a href="homepage2.html">Sign up</a></button>
+        </form>
+    </div>
+    </section>
+</body>
+
+</html>
