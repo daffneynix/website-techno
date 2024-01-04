@@ -1,0 +1,139 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.signin-container {
+    width: 400px;
+    padding: 20px;
+    margin: 100px auto;
+    background-color: #ffffff68;
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+}
+
+.signin-container h2 {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.signin-container p {
+    display: inline-block;
+    margin:-10px 0 0 0;
+    font-size: small;
+}
+
+.signin-container label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: 200;
+    font-size: smaller;
+}
+
+.signin-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;     
+}
+
+.signin-container button {
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+a, button:link{
+    color: black;
+}
+
+#sign-in:hover{
+    background-color: lightgray;
+}
+
+#google:hover{
+    background-color: yellow;
+}
+
+#facebook:hover {
+    background-color: blue;
+}
+
+#twitter:hover {
+    background-color: cyan;
+}
+
+.create {
+    display: flex;
+}
+.create p{
+    padding: 0;
+    margin-top: 20px;
+}
+.create a{
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 13rem;
+    float: right;
+    font-size: smaller;
+   
+}
+
+.signin-social1 p{
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+.signin-social a button {
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+    border: 1px solid none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 10px;
+   
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signin_buttons button,
+.signin_buttons2 button {
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+    border: 1px solid none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 5px;
+    box-sizing: border-box;
+    margin-right: 128px;
+}
+
+.signin_text p {
+    margin-top: 20px;
+    display: block;
+    font-size: small;
+    white-space: nowrap;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 20x;
+    font-size: x-small;
+}
+
